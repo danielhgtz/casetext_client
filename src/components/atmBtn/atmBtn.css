@@ -1,0 +1,28 @@
+.atm-btn {
+  background-color: rgb(193, 193, 193);
+  width: 2.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  border-color: transparent;
+  border-top: rgb(217, 217, 212) solid 2px;
+  border-bottom: rgb(155, 155, 155) solid 2px;
+}
+
+.atm-btn-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.line {
+  height: 3px;
+  width: 18px;
+  background-color: rgb(155, 155, 155);
+}
+
+.atm-screen-wrp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}

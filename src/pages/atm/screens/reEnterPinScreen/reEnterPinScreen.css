@@ -1,0 +1,15 @@
+.atm-screen-reenter-subtitle {
+  text-align: center;
+  font-size: 7px;
+}
+
+.atm-screen-reenter-amount {
+  text-align: center;
+  font-size: 10px;
+  margin: 10px 0px;
+}
+
+.atm-screen-reenter-err-msg {
+  font-size: 7px;
+  text-align: center;
+}

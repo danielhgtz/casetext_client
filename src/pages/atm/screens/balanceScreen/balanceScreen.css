@@ -1,0 +1,11 @@
+.atm-screen-balance-subtitle {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.atm-screen-balance-amount {
+  margin: 0;
+  text-align: center;
+  font-size: 9px;
+}

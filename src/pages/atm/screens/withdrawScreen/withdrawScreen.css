@@ -1,0 +1,16 @@
+.atm-screen-withdraw-subtitle {
+  text-align: center;
+  font-size: 7px;
+}
+
+.atm-screen-withdraw-amount {
+  text-align: center;
+  font-size: 10px;
+  margin: 0px 0px 5px 0px;
+}
+
+.atm-screen-withdraw-err-msg {
+  font-size: 7px;
+  text-align: center;
+  color: red;
+}

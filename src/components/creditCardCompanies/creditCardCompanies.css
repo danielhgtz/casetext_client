@@ -1,0 +1,12 @@
+.atm-credit-card-companies-img-wrp {
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+.atm-credit-card-companies-img-wrp img {
+  mix-blend-mode: multiply;
+  width: 10%; /* Set the width to 50% */
+  height: auto; /* Maintain the aspect ratio */
+  opacity: 30%;
+}

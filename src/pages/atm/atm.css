@@ -1,0 +1,85 @@
+.atm-main-wrp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem auto auto auto;
+  align-items: center;
+  background-image: url("/src/assets/atm_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+.atm-sign {
+  position: relative; /* Agregamos position: relative; al contenedor padre */
+  border-radius: 10px;
+  padding: 8px 50px;
+  background-color: rgb(18, 108, 174);
+  width: 80%;
+  margin: 0;
+}
+
+.atm-sign img {
+  max-width: 100%;
+  height: auto;
+}
+
+.atm-graffiti {
+  position: absolute;
+  width: auto;
+  height: auto;
+  scale: 0.85;
+  right: 1%; /* Ajusta según sea necesario para mantener la posición horizontal */
+  top: 17%; /* Ajusta según sea necesario para mantener la posición vertical */
+  z-index: 999;
+}
+.atm-main-containter {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 240, 231);
+  width: 99%;
+  height: 35rem;
+  flex-grow: 1;
+}
+
+.sign-shadow {
+  background-color: rgb(190, 190, 190);
+  height: 5px;
+}
+
+.atm-credit-card-company-wrp {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  height: 15px;
+}
+.atm-credit-card-company {
+  opacity: 13%;
+}
+
+.atm-systems-icon-wrp {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.atm-systems-icon {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-right: 22%;
+}
+
+.atm-sticker-graf {
+  max-width: 42%;
+  height: auto;
+  margin: 0px; /* Ajusta según sea necesario para separar de otras imágenes */
+  position: relative; /* Para utilizar el posicionamiento relativo */
+  left: 25px; /* Ajusta según sea necesario para mover a la izquierda */
+  top: -25px;
+}
